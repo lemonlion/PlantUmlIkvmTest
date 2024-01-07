@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IKVM" Version="8.7.3" />
+    <PackageReference Include="IKVM.Image" Version="8.7.3" />
+    <PackageReference Include="IKVM.Image.JDK" Version="8.7.3" />
+    <PackageReference Include="IKVM.Image.JRE" Version="8.7.3" />
+    <PackageReference Include="IKVM.Maven.Sdk" Version="1.6.5" />
+    <PackageReference Include="IKVM.MSBuild" Version="8.7.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="PlantUml\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <IkvmReference Include="PlantUml\plantuml-mit-1.2023.13.jar" >
+      <Debug>true</Debug>
+    </IkvmReference>
+  </ItemGroup>
+
+</Project>
