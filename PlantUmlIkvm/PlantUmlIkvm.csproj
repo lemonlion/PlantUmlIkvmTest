@@ -8,20 +8,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="IKVM" Version="8.7.3" />
-    <PackageReference Include="IKVM.Image" Version="8.7.3" />
-    <PackageReference Include="IKVM.Image.JDK" Version="8.7.3" />
-    <PackageReference Include="IKVM.Image.JRE" Version="8.7.3" />
-    <PackageReference Include="IKVM.Maven.Sdk" Version="1.6.5" />
-    <PackageReference Include="IKVM.MSBuild" Version="8.7.3" />
+    <PackageReference Include="IKVM" Version="8.9.1" />
+    <PackageReference Include="IKVM.Image" Version="8.9.1" />
+    <PackageReference Include="IKVM.Image.JDK" Version="8.9.1" />
+    <PackageReference Include="IKVM.Image.JRE" Version="8.9.1" />
+    <PackageReference Include="IKVM.Maven.Sdk" Version="1.7.1" />
+    <PackageReference Include="IKVM.MSBuild" Version="8.9.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="PlantUml\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <IkvmReference Include="PlantUml\plantuml-mit-1.2023.13.jar" >
+    <IkvmReference Include="PlantUml\plantuml-mit-1.2024.6.jar">
       <Debug>true</Debug>
     </IkvmReference>
   </ItemGroup>
