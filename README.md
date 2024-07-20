@@ -1,5 +1,5 @@
 # PlantUml IKVM Test
-A proof of concept demonstrates the use of [IKVM](https://github.com/ikvmnet/ikvm) to generate [PlantUML](https://plantuml.com/) images directly in C#/.Net.
+A proof of concept that demonstrates generating [PlantUML](https://plantuml.com/) images directly in C#/.Net using [IKVM](https://github.com/ikvmnet/ikvm).
 
 ## Output
 
