@@ -1,5 +1,5 @@
-# PlantUmlIkvmTest
-My attempt to run PlantUml using IKVM.  Now fully working after IKVM update.
+# PlantUml IKVM Test
+A proof of concept demonstrates the use of [IKVM](https://github.com/ikvmnet/ikvm) to generate [PlantUML](https://plantuml.com/) images directly in C#/.Net.
 
 ## Output
 
