@@ -12,7 +12,6 @@
     <PackageReference Include="IKVM.Image" Version="8.9.1" />
     <PackageReference Include="IKVM.Image.JDK" Version="8.9.1" />
     <PackageReference Include="IKVM.Image.JRE" Version="8.9.1" />
-    <PackageReference Include="IKVM.Maven.Sdk" Version="1.7.1" />
     <PackageReference Include="IKVM.MSBuild" Version="8.9.1" />
   </ItemGroup>
 

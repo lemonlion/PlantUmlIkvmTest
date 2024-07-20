@@ -1,6 +1,5 @@
 ﻿using java.io;
 using net.sourceforge.plantuml;
-using net.sourceforge.plantuml.klimt.sprite;
 
 namespace PlantUmlIkvm;
 
