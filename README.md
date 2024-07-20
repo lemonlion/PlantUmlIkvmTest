@@ -3,7 +3,7 @@ A proof of concept that demonstrates generating [PlantUML](https://plantuml.com/
 
 ## Output
 
-Creates and saves to disk 3 files in different formats (PNG, SVG & ASCII Art Text).  
+Creates and saves 3 files to disk in different formats (PNG, SVG & ASCII Art Text).  
 
 ### Console Output:
 ![image](https://github.com/user-attachments/assets/5c7c3f1e-9cd7-40a4-a49d-2e4f59db5f81)
