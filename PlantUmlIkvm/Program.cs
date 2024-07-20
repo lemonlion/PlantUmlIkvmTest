@@ -52,6 +52,8 @@ Bob -> Alice : hello
 
         System.IO.File.WriteAllBytes(filepath, imageAsBytes);
 
-        return (filepath, imageAsBase64, format == FileFormat.ATXT ? System.IO.File.ReadAllText(filepath) : imageAsBase64);
+        var stringResult = format == FileFormat.ATXT ? System.Text.Encoding.UTF8.GetString(imageAsBytes) : imageAsBase64;
+
+        return (filepath, imageAsBase64, stringResult);
     }
 }
